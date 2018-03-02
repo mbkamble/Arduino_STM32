@@ -9,7 +9,7 @@ cd dfu-util
 ./autogen.sh
 ./configure
 make
-cp src/dfu-util ../../linux/dfu-util
-cp src/dfu-suffix ../../linux/dfu-util
-cp src/dfu-prefix ../../linux/dfu-util
+cp src/dfu-util ../../dfu-util
+cp src/dfu-suffix ../../dfu-util
+cp src/dfu-prefix ../../dfu-util
 
